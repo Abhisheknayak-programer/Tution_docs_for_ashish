@@ -1,0 +1,26 @@
+.ashish{
+    height: 250px;
+    width: 250px;
+    background: yellow;
+    background-color: green;
+    background-image: linear-gradient( 110.1deg,  rgba(34,126,34,1) 2.9%, rgba(168,251,60,1) 90.3% );
+    /* background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% ); */
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.ashish:hover{
+    background: red;
+}
+
+.ashish h1:hover{
+    border: 50px solid black;
+    color: white;
+}
+
+.ashish a:hover{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;  
+}
