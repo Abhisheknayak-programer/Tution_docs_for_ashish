@@ -1,0 +1,27 @@
+h1{
+    border: 2px solid red;
+}
+
+span{
+    border: 2px solid red;
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: 10px;
+    color: white;
+    list-style: none;
+}
+
+a{
+    margin-top: 0.6rem;
+    text-decoration: none;
+    color: white;
+}
