@@ -1,0 +1,101 @@
+*{
+    color: red;
+}
+
+
+.FirstDiv{
+    width: 80%;
+    border: 10px solid red;
+    margin: auto;
+}
+
+.FirstDiv h1{
+    text-align: center;
+    border: 10px solid blueviolet;
+    margin: 50px 100px;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 0px;
+    margin-bottom: 200px;
+}
+
+.FirstDiv p{
+    text-align: justify;
+    border: 10px solid green;
+    padding: 100px; /* Padding is used to give the space inside the boder and the content  . This Type Of Padding are used only when we want to give the same padding to all the side*/
+
+    padding: 100px 50px 30px 70px; /* This type of padding is used when we want to give unique values to all sides we have to pass the alues in the order of -> Top right bottom left */
+
+    padding: 200px 50px; /* This type of padding is used when we want to give unique values to its x and y axis at a same time  The order Must Be like -> Top&bottom  Left&right */
+
+    padding: 10px;
+
+    margin: 20px;
+
+    padding-top:100px ;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+
+    color: black;
+}
+
+
+
+.secondHeader{
+    border: 10px solid blue;
+    width: 40%;
+    margin: auto;
+}
+
+.secondHeader h1{
+    color: brown;
+}
+
+
+.secondHeader form input{
+    outline: none;
+    /* outline-color: red; */
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+
+.secondHeader form input::placeholder{
+    color: red;
+}
+
+.secondHeader form input:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.ThirdHeader{
+    border: 20px solid red;
+    width: 20%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ThirdHeader i{
+    color: green;
+    font-size: 20rem;
+}
+
+.ForthHeader a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* 
+.FirstDiv{
+    visibility: hidden;
+    display: none;
+} */
