@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*{
+    font-family: 'Yellowtail', cursive;
+}
+
+
+.box_1{
+    height: 45rem;
+    border: 10px solid red;
+}
