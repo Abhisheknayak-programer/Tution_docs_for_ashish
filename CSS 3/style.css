@@ -1,0 +1,54 @@
+.MyImg{
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+    background: url("https://images.pexels.com/photos/1738655/pexels-photo-1738655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center/cover;
+    z-index: -1;
+    position: sticky;
+    top: 0;
+}
+
+.MyPara{
+    color: red;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+}
+
+
+.AllHolder ul li{
+    list-style: none;
+    font-size: 50px;
+}
+
+/* .AllHolder ul li:nth-child(1){
+    color: red;
+}
+
+
+.AllHolder ul li:nth-child(3){
+    color: green;
+} */
+
+
+.AllHolder ul li:nth-child(odd){
+    color: red;
+}
+
+
+.AllHolder ul li:last-child{
+    background-color: green;
+    display: inline;
+}
+
+.AllHolder ul li:first-child{
+    color: brown;
+}
+
+
+
+
+
