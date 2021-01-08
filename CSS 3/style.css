@@ -50,5 +50,41 @@
 
 
 
+section{
+    /* border: 10px solid yellow; */
+}
+
+.MainLayer{
+    height: 20vh;
+    width:50%;
+    margin: auto;
+    /* border: 20px solid red; */
+    display: flex;
+}
+
+.MainLayer .box{
+    height: 20vh;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+
+.MainLayer .box:hover{
+    background-color: red;
+}
 
 
+.MainLayer .box i{
+    /* border: 2px solid red; */
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-left: 2.8rem;
+    background-color: aqua;
+}
+
+.MainLayer .box p{
+    text-align: center;
+}
