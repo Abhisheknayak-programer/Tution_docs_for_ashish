@@ -1,0 +1,38 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+}
+
+.container .box-1{
+    background-color: blue;
+    transition: all 5s ease;
+}
+
+
+.container .box-2{
+    background-color: yellow;
+    transition: all 5s ease;
+}
+
+
+.container .box-3{
+    background-color: red;
+    transition: all 5s ease;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container p{
+    text-align: justify;
+    padding: 0 20px;
+}
+
+
+
+.container .box-1:hover,.container .box-2:hover,.container .box-3:hover{
+    transform:scale(1.10);
+    background-color: #fff;
+}
+

@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+    border: 2px solid red;
+    transition: all 0.7s ease-out;
+    background-color: red;
+    background: url("https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg") center center/cover;
+}
+
+
+.container:hover{
+    box-shadow:inset 4px 4px 20px rgb(8, 8, 8);
+    text-shadow: 1px 1px 4px black;
+    /* transform: rotate(30deg); */
+    /* transform: skew(45deg); */
+    filter: hue-rotate(360deg);
+    border-radius: 50%;
+}
+
+
+
