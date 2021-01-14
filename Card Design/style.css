@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.MySection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.MySection .card{
+    height: 400px;
+    width: 20%;
+    border-radius: 20px;
+}
+
+
+.ImgHolder{
+    height: 250px;
+    background: url("https://dl.moviesr.net/images/cwLvN.jpg") center center/cover;
+    border-radius: 20px 20px 0px 0px ;
+
+}
+
+.CardContent{
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.CardContent button{
+    background-color: black;
+    color: grey;
+    border: none;
+    padding: 10px 20px;   
+}
+
+.CardContent h1{
+    font-size: 30px;
+}
+
+
+.MySection .card:hover{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
